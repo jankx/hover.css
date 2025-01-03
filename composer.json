@@ -1,0 +1,19 @@
+{
+    "name": "jankx/hover.css",
+    "description": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jankx\\HoverCss\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
