@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Jankx\\HoverCss\\": "src/"
-        }
+        },
+        "files": [
+            "./hover-css.php"
+        ]
     },
     "authors": [
         {
@@ -15,5 +18,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "jankx/core": "*"
+    }
 }
