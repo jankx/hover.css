@@ -42,7 +42,7 @@ class Loader
     {
         css('jankx-hover.css', [
             'url' => implode('/', [jankx_get_path_url(dirname(JANKX_HOVER_CSS_FILE)), 'assets/Hover-2.3.1/css/hover.css']),
-            'url.min' => implode('/', [jankx_get_path_url(dirname(JANKX_HOVER_CSS_FILE)), 'assets/Hover-2.3.1/css/hover.min.css'])
+            'url.min' => implode('/', [jankx_get_path_url(dirname(JANKX_HOVER_CSS_FILE)), 'assets/Hover-2.3.1/css/hover-min.css'])
         ], [], '2.3.1');
     }
 }
