@@ -2,6 +2,10 @@
 
 namespace Jankx\HoverCss;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use Jankx\Adapter\Options\Helper;
 
 class Loader
